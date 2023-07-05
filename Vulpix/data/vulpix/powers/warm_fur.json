@@ -1,0 +1,33 @@
+{
+    "name": "Warm Fur",
+    "description": "You melt snow",
+    "type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+                    "type": "origins:execute_command",
+                    "command": "fill ~2 ~2 ~2 ~-2 ~-2 ~-2 air replace #minecraft:snow_block"
+                },
+				{
+                    "type": "origins:execute_command",
+                    "command": "fill ~2 ~2 ~2 ~-2 ~-2 ~-2 air replace #minecraft:ice"
+                },
+				{
+                    "type": "origins:execute_command",
+                    "command": "fill ~2 ~2 ~2 ~-2 ~-2 ~-2 air replace #minecraft:snow"
+                },
+				{
+                    "type": "origins:execute_command",
+                    "command": "fill ~2 ~2 ~2 ~-2 ~-2 ~-2 air replace #minecraft:frosted_ice"
+                },
+				{
+                    "type": "origins:execute_command",
+                    "command": "fill ~2 ~2 ~2 ~-2 ~-2 ~-2 air replace #minecraft:blue_ice"
+                },
+				{
+                    "type": "origins:execute_command",
+                    "command": "fill ~2 ~2 ~2 ~-2 ~-2 ~-2 air replace #minecraft:packed_ice"
+                }
+                ]}
+}

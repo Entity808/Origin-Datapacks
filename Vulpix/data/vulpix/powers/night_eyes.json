@@ -1,0 +1,10 @@
+{
+	"type": "origins:multiple",
+	"name": "Night Eyes",
+	"description": "Your eyes are fit for the dark, granting you permanent night vision",
+
+	"night_vision": {
+		"type": "origins:night_vision",
+		"strength": 100
+	}
+}

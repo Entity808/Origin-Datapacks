@@ -1,0 +1,34 @@
+{
+    "type": "origins:multiple",
+    "fire": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+         "type": "origins:and",
+         "actions": [
+             {
+                 "type": "origins:apply_effect",
+                 "effect": {
+                     "effect": "minecraft:strength",
+                     "duration": 2,
+                     "amplifier": 1,
+                     "show_icon": true,
+                     "show_particles": false
+                 }
+             }
+         ]
+     },
+     "cooldown": 0,
+     "hud_render": {
+         "should_render": false
+     },
+     "condition": {
+     "type": "origins:in_block",
+     "block_condition": {
+         "type": "origins:block",
+         "block": "minecraft:fire"
+     }
+   },
+   "hidden":true
+}
+}

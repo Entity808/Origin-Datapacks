@@ -1,0 +1,11 @@
+{
+  "name": "Fragile",
+  "description": "You only have 7 hearts of health because of your small stature.",
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "operation": "addition",
+    "value": "-6"
+  },
+  "hidden": true
+}

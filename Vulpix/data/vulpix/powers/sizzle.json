@@ -1,0 +1,94 @@
+{
+    "type": "origins:multiple",
+    "main": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:fluid_height",
+                            "fluid": "minecraft:water",
+                            "comparison": ">",
+                            "compare_to": 0
+                        },
+                        {
+                            "type": "origins:in_rain"
+                        }
+                    ]
+                }
+            ]
+        },
+        "type": "origins:damage_over_time",
+        "interval": 20,
+        "onset_delay": 1,
+        "damage": 2,
+        "damage_easy": 1,
+        "damage_source": {
+            "name": "hurt_by_water",
+            "bypasses_armor": true,
+            "unblockable": true
+        },
+        "protection_enchantment": "origins:water_protection",
+        "protection_effectiveness": 1
+    },
+    "loop": {
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": ">",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:in_rain"
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "rising_action": {
+            "type": "origins:trigger_cooldown",
+            "power": "*:*_cooldown"
+        },
+        "falling_action": {
+            "type": "origins:set_resource",
+            "resource": "*:*_cooldown",
+            "value": 140
+        }
+    },
+    "cooldown": {
+        "type": "origins:cooldown",
+        "cooldown": 140,
+        "hud_render": {
+            "should_render": true,
+            "bar_index": 1,
+            "condition": {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:fluid_height",
+                        "fluid": "minecraft:water",
+                        "comparison": ">",
+                        "compare_to": 0
+                    },
+                    {
+                        "type": "origins:in_rain"
+                    }
+                ]
+            },
+            "inverted": true
+        }
+    },
+	"name":"Sizzle",
+	"description":"You get damage in water with a 7 seconds delay"
+}

@@ -1,0 +1,21 @@
+{
+	"type": "origins:action_over_time",
+	"name": "Brethen?",
+	"description": "Minecraft foxes see you as one of their own, so they won't run away from you! (They will even help you fight!)",
+	"entity_action": {
+		"type": "origins:if_else_list",
+		"actions": [{
+			"condition": {
+				"type": "origins:command",
+				"command": "execute if entity @e[distance=..20,type=minecraft:fox]",
+				"comparison": ">=",
+				"compare_to": 1
+			},
+			"action": {
+				"type": "origins:execute_command",
+				"command": "/data modify entity @e[distance=..20,type=fox,limit=1] Trusted[] set from entity @p UUID"
+			}
+		}]
+	},
+	"interval": 20
+}

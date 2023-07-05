@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"vulpix:berry_sweet",
+		"vulpix:ember",
+		"vulpix:flash_fire",
+		"vulpix:fragile",
+		"vulpix:little_guy",
+		"vulpix:night_eyes",
+		"vulpix:sizzle",
+		"vulpix:trustedbyfox",
+		"vulpix:unwieldy",
+		"vulpix:warm_fur",
+		"vulpix:water_weakness",
+		"vulpix:wolfhostile"
+	],
+	"icon": "minecraft:campfire",
+	"order": 10,
+	"impact": 2,
+	"name": "Vulpix",
+	"description": "A little fox born of fire, this world is new to you and adventure awaits!"
+}

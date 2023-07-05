@@ -1,0 +1,19 @@
+{
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 2.0,
+        "source": {
+            "name": "magic",
+            "bypasses_armor": true
+          }
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:potion"
+        }
+    },
+    "name": "Water Weakness",
+    "description": "While you do get the effects of potions you consume, they still hurt your body and put out your inner fire! When consuming a potion, you take 1 heart of damage. (Splash potions not affected)"
+}
