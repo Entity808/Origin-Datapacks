@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"lifesteal:lifesteal",
+		"lifesteal:lifestealhealth",
+		"lifesteal:lifestealresource"
+	],
+	"icon": "minecraft:barrier",
+	"order": 10,
+	"impact": 3,
+	"name": "Lifesteal",
+	"description": "You take lives"
+}

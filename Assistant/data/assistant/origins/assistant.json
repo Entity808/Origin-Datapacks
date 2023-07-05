@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"assistant:versatile",
+		"assistant:cautious",
+		"assistant:helpinghelpfulhelp"
+	],
+	"icon": "minecraft:lectern",
+	"order": 10,
+	"impact": 1,
+	"name": "Assistant",
+	"description": "You try to help in any way you can, even when you don't understand well what to do"
+}

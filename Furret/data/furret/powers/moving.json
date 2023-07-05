@@ -1,0 +1,34 @@
+{
+	"type": "origins:multiple",
+	"name": "Walk",
+	"description": "Walk to get regeneration (Not if you sprint)",
+	"moving": {
+		"type": "origins:action_over_time",
+		"interval": 5,
+		"entity_action": {
+			"type": "origins:apply_effect",
+			"effects": [
+				{
+					"effect": "minecraft:regeneration",
+					"amplifier": 1,
+					"duration": 2
+				}
+			]
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:moving"
+				},
+				{
+					"type": "origins:sneaking",
+					"inverted": true
+				},
+				{
+					"type": "origins:sprinting",
+					"inverted": true
+				}
+			]
+		}}
+}

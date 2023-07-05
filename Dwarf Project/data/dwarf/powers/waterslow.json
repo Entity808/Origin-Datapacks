@@ -1,0 +1,27 @@
+	{
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:apply_effect",
+			"effect": {
+				"effect": "minecraft:slowness",
+				"duration": 9999999
+			}
+		},
+		"entity_action2": {
+				"type": "origins:shaking"
+				},
+		"falling_action": {
+			"type": "origins:clear_effect",
+			"effect": "minecraft:slowness"
+		},
+		"conditions": [
+      {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0.0
+      }],
+		"interval": 2,
+		"name":"Water!",
+		"description":"Water slows you down"
+	}

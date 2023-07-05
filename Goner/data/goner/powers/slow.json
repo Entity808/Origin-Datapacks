@@ -1,0 +1,5 @@
+{
+	"type": "origins:prevent_sprinting",
+	"name":"Slow",
+	"description":"You in your astral form, cannot sprint"
+}

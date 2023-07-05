@@ -1,0 +1,13 @@
+{
+	"name": "Reap",
+	"description": "Your affinity with death grants you the Wither's explosive projectile.",
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:wither_skull",
+	"cooldown": 100,
+	"count": 1,
+	"speed": 1.5,
+	"divergence": 1,
+	"sound": "minecraft:entity.wither.shoot",
+	"tag": "{pickup:0b}",
+	"key": "secondary"
+}

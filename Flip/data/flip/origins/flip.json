@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"flip:nofall",
+		"flip:up"
+	],
+	"icon": "minecraft:barrier",
+	"order": 10,
+	"impact": 3,
+	"name": "Flip",
+	"description": "You flip"
+}

@@ -1,0 +1,6 @@
+{
+    "name":"You died",
+    "description":"You are already half-dead",
+    "type": "origins:entity_group",
+    "group": "undead"
+}

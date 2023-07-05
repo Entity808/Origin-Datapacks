@@ -1,0 +1,380 @@
+{
+    "type": "origins:multiple",
+    "addhealthnegone1": {
+        "type": "origins:action_on_land",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "kill @s"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "lifesteal:lifestealresource",
+                    "operation": "add",
+                    "change": 2
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": -1.0
+        }
+    },
+    "addhealthnegone": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": -9999999999,
+            "name": "Increased health"
+        },
+        "tick_rate": 1,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": -1.0
+        }
+    },
+    "addhealthzero": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 0,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 0.0
+        }
+    },
+    "addhealthone": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 2,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 1.0
+        }
+    },
+    "addhealthtwo": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 4,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 2.0
+        }
+    },
+    "addhealththree": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 6,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 3.0
+        }
+    },
+    "addhealthfour": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 8,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 4.0
+        }
+    },
+    "addhealthfive": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 10,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 5.0
+        }
+    },
+    "addhealthsix": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 12,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 6.0
+        }
+    },
+    "addhealthseven": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 14,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 7.0
+        }
+    },
+    "addhealtheight": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 16,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 8.0
+        }
+    },
+    "addhealthnine": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 18,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 9.0
+        }
+    },
+    "addhealthten": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 20,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 10.0
+        }
+    },
+    "addhealtheleven": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 22,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 11.0
+        }
+    },
+    "addhealthtwelve": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 24,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 12.0
+        }
+    },
+    "addhealththirteen": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 26,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 13.0
+        }
+    },
+    "addhealthfourteen": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 28,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 14.0
+        }
+    },
+    "addhealthfifteen": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 30,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 15.0
+        }
+    },
+    "addhealthsixteen": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 32,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 16.0
+        }
+    },
+    "addhealthseventeen": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 34,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 17.0
+        }
+    },
+    "addhealtheighteen": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 36,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 18.0
+        }
+    },
+    "addhealthnineteen": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 38,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 19.0
+        }
+    },
+    "addhealthtwenty": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 40,
+            "name": "Increased health"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "lifesteal:lifestealresource",
+            "comparison": "==",
+            "compare_to": 20.0
+        }
+    },
+    "hidden": true
+}

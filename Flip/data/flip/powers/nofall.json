@@ -1,0 +1,10 @@
+{
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    },
+	"name": "No Fall",
+	"description": "When landing on blocks you stop gravity's pull, allowing you to not take fall damage"
+	}
+	

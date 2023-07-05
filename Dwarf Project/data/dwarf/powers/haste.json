@@ -1,0 +1,9 @@
+{
+	"type": "origins:modify_break_speed",
+	"modifier": {
+			"operation": "multiply_base",
+			"value": 0.5
+	},
+	"name":"Miner",
+	"description":"Due to the many years of living in the caves, the mysterious species adapted to their new surroundings in the caves, giving them additional speed when mining."
+}

@@ -1,0 +1,18 @@
+{
+	"name":"Fatty",
+	"description":"You are a weakling",
+	"type":"origins:multiple",
+	"damage":{
+		"type": "origins:modify_damage_dealt",
+		"modifier": {
+			"operation": "multiply_total",
+			"value": -0.9
+		}
+	},
+	"shake":{
+		"type":"origins:self_action_on_hit",
+		"entity_action":{
+			"type": "origins:shaking"
+		}
+	}
+}

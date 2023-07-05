@@ -1,0 +1,12 @@
+{
+    "name": "Lifesteal",
+    "description": "If you kill a mob or player you get 1 extra heart. if your health reaches 0 then, instead of dying, you get the effects of a totem of undying and permenantly lose one heart, upon dying with one permenant heart left you actually die and respawn with one heart.",
+    "type": "origins:resource",
+    "min": -1,
+    "max": 20,
+    "start_value": 0,
+    "hud_render": {
+        "should_render": true
+    }
+
+}

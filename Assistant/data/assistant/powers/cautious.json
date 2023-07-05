@@ -1,0 +1,14 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"item_action": {
+			"type": "origins:damage",
+			"amount": -1,
+			"ignore_unbreaking": true
+		},
+		"chance": 0.1
+	},
+	"interval": 80,
+	"name":"Cautious",
+	"description":"You carefully use your tools, so much so that they repair over time"
+}

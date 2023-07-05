@@ -1,0 +1,11 @@
+{
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+          "tag": "origins:shields"
+      }
+  },
+  "name":"Unwieldy",
+  "description":"You can't quite get down how to hold a shield, they're just not made for you!"
+}

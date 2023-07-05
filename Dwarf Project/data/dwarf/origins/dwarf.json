@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"dwarf:haste",
+		"dwarf:nightvision",
+		"dwarf:nolight",
+		"dwarf:potionbrew",
+		"dwarf:scale",
+		"dwarf:strong",
+		"dwarf:waterslow"
+	],
+	"icon": "minecraft:golden_pickaxe",
+	"order": 10,
+	"impact": 2,
+	"name": "Dwarf",
+	"description": "Deep in the dwellings of an underground cave, a species unknown to mankind hid there, escaping the Great Purge"
+}

@@ -1,0 +1,21 @@
+{
+	"type": "origins:multiple",
+	"power": {
+	 "type": "origins:simple"
+},
+	"rest": {
+			 "type": "origins:active_self",
+			 "entity_action": {
+"type": "origins:execute_command",
+"command":"effect give @s regeneration 10 2 true"
+}
+},
+"key": {
+"continuous": true,
+"key": "key.origins.primary_active",
+"cooldown": 2400
+},
+"name": "Potion Brew [Primary]",
+	 "description": "You can regen for 10 sec with a 2 min cooldown"
+}
+

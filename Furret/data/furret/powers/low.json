@@ -1,0 +1,16 @@
+{
+    "name":"Run!!",
+    "description":"If you are low, run!!!",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "effect give @s speed 30 5 true",
+        "permission_level": 4
+    },
+    "condition": {
+    "type": "origins:health",
+    "comparison": "<",
+    "compare_to": 5
+},
+    "interval": 10
+}

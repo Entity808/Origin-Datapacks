@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"invertedglasscanon:lowdmg",
+		"invertedglasscanon:highdef"
+	],
+	"icon": "minecraft:glass",
+	"order": 10,
+	"impact": 2,
+	"name": "Inverted Glass Canon",
+	"description": "You very good at tanking"
+}

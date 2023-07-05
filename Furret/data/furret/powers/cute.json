@@ -1,0 +1,13 @@
+{
+    "name": "Cute",
+    "description": "Entities around you get weakness",
+    "type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+                    "type": "origins:execute_command",
+                    "command": "effect give @e[distance=1..2] weakness 2 1 true"
+                }
+                ]}
+}

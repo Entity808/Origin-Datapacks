@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"islandmaker:big",
+		"islandmaker:small"
+	],
+	"icon": "minecraft:ender_eye",
+	"order": 10,
+	"impact": 3,
+	"name": "Island Maker",
+	"description": "You can big and small"
+}

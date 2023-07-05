@@ -1,0 +1,24 @@
+{
+  "type": "origins:multiple",
+  "power": {
+   "type": "origins:simple"
+},
+  "rest": {
+       "type": "origins:active_self",
+       "entity_action": {
+    "type": "origins:execute_command",
+    "command": "scale set pehkui:height 16 @s"
+  },
+      "entity_action2":{
+    "type": "origins:execute_command",
+    "command": "scale set pehkui:width 16 @s"
+  }
+},
+"key": {
+"continuous": false,
+"key": "key.origins.primary_active"
+},
+"name": "Big [Primary]",
+   "description": "You = Big = Island?"
+}
+

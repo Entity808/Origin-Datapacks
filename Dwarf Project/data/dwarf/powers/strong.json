@@ -1,0 +1,8 @@
+{
+	"type": "origins:modify_damage_dealt",
+	"modifier": {
+			"name": "After years of mining, they grew so strong that their melee attack was drastically increased",
+			"operation": "addition",
+			"value": 4.0
+	}
+}

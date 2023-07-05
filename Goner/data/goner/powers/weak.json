@@ -1,0 +1,11 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type":"execute_command",
+		"command":"effect give @s minecraft:weakness 2 1 true"
+
+	},
+	"interval": 21,
+	"name":"Weak",
+	"description":"The pain of your loss causes you to be weak"
+}

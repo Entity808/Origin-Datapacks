@@ -1,0 +1,29 @@
+{
+    "name": "Quick Attack",
+    "description": "All you attacks are set to 5 hearts dmg with a 50% chance to do 7.5 hearts dmg",
+    "entity_action": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "action": {
+            "type": "origins:modify_damage_dealt",
+            "modifier": {
+                "operation": "set",
+                "value": 10
+            }
+        }
+    },
+    "entity_action2": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "chanced":{
+        "type": "origins:chance",
+        "chance": 0.5,
+        "action": {
+            "type": "origins:modify_damage_dealt",
+            "modifier": {
+                "operation": "add",
+                "value": 5
+            }
+        }}
+    }
+}

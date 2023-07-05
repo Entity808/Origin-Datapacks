@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"furret:cute",
+		"furret:low",
+		"furret:moving",
+		"furret:nowings",
+		"furret:quickattack",
+		"furret:rest",
+		"furret:scale",
+		"furret:squishy",
+		"furret:unwieldy"
+	],
+	"icon": "minecraft:fox_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Furret",
+	"description": "Almost the pokemon"
+}

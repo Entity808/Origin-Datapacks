@@ -1,0 +1,14 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type":"origins:execute_command",
+		"command":"effect give @e[type=minecraft:player,distance=1..5] minecraft:haste 6 1 true"
+	},
+	"entity_action2": {
+		"type":"origins:execute_command",
+		"command":"effect give @e[type=minecraft:player,distance=1..5] minecraft:resistance 6 1 true"
+	},
+	"interval": 100,
+	"name":"Helping Helpful Help",
+	"description":"You make people around you better!"
+}
